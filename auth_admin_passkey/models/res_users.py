@@ -30,10 +30,10 @@ class ResUsers(models.Model):
         )
 
         mails = []
-        if send_to_admin and admin_user.email:
-            mails.append({'email': admin_user.email, 'lang': admin_user.lang})
-        if send_to_user and login_user.email:
-            mails.append({'email': login_user.email, 'lang': login_user.lang})
+        #if send_to_admin and admin_user.email:
+        #    mails.append({'email': admin_user.email, 'lang': admin_user.lang})
+        #if send_to_user and login_user.email:
+        #    mails.append({'email': login_user.email, 'lang': login_user.lang})
         for mail in mails:
             subject = _('Passkey used')
             body = _(
