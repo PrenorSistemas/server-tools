@@ -1,33 +1,26 @@
-.. image:: https://img.shields.io/badge/license-LGPL--3-blue.svg
-   :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
-   :alt: License: LGPL-3
+.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
+   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+   :alt: License: AGPL-3
 
-==============
-User Immutable
-==============
+=================
+OAuth multi token
+=================
 
-This module adds a group named `Immutable` which cannot be altered by users 
-outside of that group. By default, the `Administrator` user is the only user
-given access to this group on install. This module also adds protections 
-against non-members granting/revoking membership to this group.
+This module adds the possibility to connect with the same account
+on more than one device at the same time.
 
+All providers are supported (Google, Facebook, Odoo, etc).
 
+Configuration and usage
+=======================
 
-Installation
-============
+On users' form you can set the number of maximum simultaneous connections.
 
-* Install module as normal
+By default 5 connections are allowed.
 
-Usage
-=====
+From there you can also clear / inactivate existing tokens.
 
-Simply add any user to the `Immutable` group, provided that your login user 
-is a member of that group already.
-
-
-.. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
-   :alt: Try me on Runbot
-   :target: https://runbot.odoo-community.org/runbot/149/10.0
+Nothing changes on login action: just select your provider and try to log in.
 
 Bug Tracker
 ===========
@@ -36,7 +29,6 @@ Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/server-tools/issues>`_. In case of trouble, please
 check there if your issue has already been reported. If you spotted it first,
 help us smash it by providing detailed and welcomed feedback.
-
 
 Credits
 =======
@@ -49,8 +41,8 @@ Images
 Contributors
 ------------
 
-* Ted Salmon <tsalmon@laslabs.com>
-
+* Florent de Labarre <florent@iguanayachts.com
+* Simone Orsi <simone.orsi@camptocamp.com>
 
 Maintainer
 ----------

@@ -22,8 +22,9 @@ addon | version | summary
 [auditlog](auditlog/) | 10.0.1.0.0 | Audit Log
 [auth_admin_passkey](auth_admin_passkey/) | 10.0.1.0.0 | Authentification - Admin Passkey
 [auth_brute_force](auth_brute_force/) | 10.0.2.2.0 | Track Authentication Attempts and Prevent Brute-force Attacks
+[auth_oauth_multi_token](auth_oauth_multi_token/) | 10.0.1.0.0 | Allow multiple connection with the same OAuth account
 [auth_session_timeout](auth_session_timeout/) | 10.0.1.0.2 | This module disable all inactive sessions since a given delay
-[auth_signup_verify_email](auth_signup_verify_email/) | 10.0.1.0.0 | Force uninvited users to use a good email for signup
+[auth_signup_verify_email](auth_signup_verify_email/) | 10.0.2.0.0 | Force uninvited users to use a good email for signup
 [auth_supplier](auth_supplier/) | 10.0.1.0.0 | Auth Supplier
 [auth_totp](auth_totp/) | 10.0.2.0.0 | Allows users to enable MFA and add optional trusted devices
 [auth_totp_password_security](auth_totp_password_security/) | 10.0.1.0.0 | auth_totp and password_security compatibility
@@ -58,7 +59,7 @@ addon | version | summary
 [base_technical_user](base_technical_user/) | 10.0.1.0.0 | Add a technical user parameter on the company
 [base_tier_validation](base_tier_validation/) | 10.0.1.0.0 | Implement a validation process based on tiers.
 [base_user_gravatar](base_user_gravatar/) | 10.0.1.0.1 | Synchronize Gravatar Image
-[base_user_role](base_user_role/) | 10.0.1.0.1 | User roles
+[base_user_role](base_user_role/) | 10.0.1.0.2 | User roles
 [base_view_inheritance_extension](base_view_inheritance_extension/) | 10.0.1.0.1 | Adds more operators for view inheritance
 [configuration_helper](configuration_helper/) | 10.0.1.0.0 | Configuration Helper
 [database_cleanup](database_cleanup/) | 10.0.1.0.0 | Database cleanup
@@ -75,7 +76,7 @@ addon | version | summary
 [mail_environment](mail_environment/) | 10.0.1.0.0 | Configure mail servers with server_environment_files
 [mass_editing](mass_editing/) | 10.0.1.1.0 | Mass Editing
 [mass_sorting](mass_sorting/) | 10.0.1.0.0 | Sort any models by any fields list
-[module_auto_update](module_auto_update/) | 10.0.2.0.2 | Automatically update Odoo modules
+[module_auto_update](module_auto_update/) | 10.0.2.0.3 | Automatically update Odoo modules
 [module_prototyper](module_prototyper/) | 10.0.1.0.0 | Prototype your module.
 [onchange_helper](onchange_helper/) | 10.0.1.0.0 | Technical module that ease execution of onchange in Python code
 [password_security](password_security/) | 10.0.1.1.4 | Allow admin to set password security requirements.
