@@ -20,7 +20,7 @@ addon | version | summary
 --- | --- | ---
 [attachment_base_synchronize](attachment_base_synchronize/) | 10.0.1.0.0 | Attachment Base Synchronize
 [auditlog](auditlog/) | 10.0.1.0.0 | Audit Log
-[auth_admin_passkey](auth_admin_passkey/) | 10.0.1.0.0 | Authentification - Admin Passkey
+[auth_admin_passkey](auth_admin_passkey/) | 10.0.1.0.1 | Authentification - Admin Passkey
 [auth_brute_force](auth_brute_force/) | 10.0.2.2.0 | Track Authentication Attempts and Prevent Brute-force Attacks
 [auth_oauth_multi_token](auth_oauth_multi_token/) | 10.0.1.0.0 | Allow multiple connection with the same OAuth account
 [auth_session_timeout](auth_session_timeout/) | 10.0.1.0.2 | This module disable all inactive sessions since a given delay
@@ -57,7 +57,7 @@ addon | version | summary
 [base_suspend_security](base_suspend_security/) | 10.0.1.0.0 | Suspend security checks for a call
 [base_technical_features](base_technical_features/) | 10.0.1.0.0 | Access to technical features without activating debug mode
 [base_technical_user](base_technical_user/) | 10.0.1.0.0 | Add a technical user parameter on the company
-[base_tier_validation](base_tier_validation/) | 10.0.1.0.0 | Implement a validation process based on tiers.
+[base_tier_validation](base_tier_validation/) | 10.0.1.0.1 | Implement a validation process based on tiers.
 [base_user_gravatar](base_user_gravatar/) | 10.0.1.0.1 | Synchronize Gravatar Image
 [base_user_role](base_user_role/) | 10.0.1.0.2 | User roles
 [base_view_inheritance_extension](base_view_inheritance_extension/) | 10.0.1.0.1 | Adds more operators for view inheritance
@@ -87,7 +87,8 @@ addon | version | summary
 [server_environment](server_environment/) | 10.0.1.2.0 | move some configurations out of the database
 [server_environment_files_sample](server_environment_files_sample/) | 10.0.1.0.0 | sample config file for server_environment
 [server_environment_ir_config_parameter](server_environment_ir_config_parameter/) | 10.0.1.0.1 | Override System Parameters from server environment file
-[sql_request_abstract](sql_request_abstract/) | 10.0.1.0.0 | Abstract Model to manage SQL Requests
+[sql_export](sql_export/) | 10.0.1.0.0 | Export data in csv file with SQL requests
+[sql_request_abstract](sql_request_abstract/) | 10.0.1.0.1 | Abstract Model to manage SQL Requests
 [user_immutable](user_immutable/) | 10.0.1.0.0 | Add Immutable User Support
 [user_threshold](user_threshold/) | 10.0.1.0.1 | Add Configurable User Threshold Support
 [users_ldap_groups](users_ldap_groups/) | 10.0.0.0.0 | Adds user accounts to groups based on rules defined by the administrator.
