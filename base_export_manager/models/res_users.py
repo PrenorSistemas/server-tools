@@ -11,12 +11,4 @@ class ResUsers(models.Model):
 
     @api.model
     def fetch_export_models(self):
-        accessobj = self.env['ir.model.access']
-        accessobj_ids = accessobj.search([
-            ('perm_export', '=', True),
-            ('group_id', 'in', self.env.user.groups_id.ids),
-        ])
-        model_names = [
-            access_obj.model_id.model for access_obj in accessobj_ids
-            ]
-        return list(set(model_names))
+        return []
